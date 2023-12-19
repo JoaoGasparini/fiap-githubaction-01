@@ -31,5 +31,5 @@ jobs:
         uses: docker/build-push-action@v5.1.0
         with:
           context: ./ProjectCLI
-          tags: 'latest'
+          tags: 'joaogasparini/fiap-githubaction-01:latest'
           push: true
